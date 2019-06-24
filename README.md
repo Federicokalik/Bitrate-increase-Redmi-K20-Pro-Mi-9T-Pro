@@ -5,7 +5,7 @@ This is a simple mod that brings improvements to the microphone of our 3 and 3T 
 
 # What Roms is it compatible with?
 
-Every Oreo/Pie-based Rom (including Oxygen OS of course).
+Every Pie-based Rom
 
 # Who did this?
 
