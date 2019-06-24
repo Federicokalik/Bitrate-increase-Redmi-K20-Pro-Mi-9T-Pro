@@ -141,6 +141,7 @@ on_install() {
   unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
   custom_variables
   device_check
+  api_check
 }
 
 # Only some special files require specific permissions
@@ -174,5 +175,13 @@ device_check() {
     break
   else
     abort "Your device is not a OnePlus 3/3T or you are using a modified build.prop"
+  fi
+}
+
+api_check() {
+  if [ "$API" -ge 28 ]; then
+    break
+  else
+    abort "Your Android version doesn't require this fix"
   fi
 }
