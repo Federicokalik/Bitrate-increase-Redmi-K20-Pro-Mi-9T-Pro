@@ -20,6 +20,9 @@ Every Pie-based Rom
 
 # Changelog
 
+### V 1.1
+
+Added api check
 
 ### V 1.0
 
