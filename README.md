@@ -3,6 +3,11 @@
 # What does this module do?
 This is a simple mod that brings improvements to the microphone of our 3 and 3T during video recordings, increasing the audio bitrate up to 320kb/s.
 
+# Why use this module?
+
+Because the quality of the microphone in certain situations is really bad.
+With this mod, more information is brought into the audio, with a consequent increase in quality
+
 # What Roms is it compatible with?
 
 Every Pie-based Rom
