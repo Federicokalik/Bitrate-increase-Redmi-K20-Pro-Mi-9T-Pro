@@ -1,7 +1,7 @@
 # ONEPLUS 3/3T Audio Bitrate Increase
 
 # What does this module do?
-This is a simple mod that brings improvements to the microphone of our 3 and 3T during video recordings, increasing the audio bitrate up to 320kb/s.
+This is a simple mod that brings improvements to the microphone of our 3 and 3T during video recordings with stock camera, increasing the audio bitrate up to 320kb/s.
 
 # Why use this module?
 
