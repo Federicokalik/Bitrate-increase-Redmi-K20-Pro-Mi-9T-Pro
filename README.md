@@ -10,7 +10,7 @@ With this mod, more information is brought into the audio, with a consequent inc
 
 # What Roms is it compatible with?
 
-Every Pie-based Rom
+Every Pie-based Rom and yes also OOS
 
 # Who did this?
 
@@ -19,6 +19,10 @@ Every Pie-based Rom
 [MarcAnt01](https://github.com/MarcAnt01) devices check & helping.
 
 # Changelog
+
+### V 1.2
+
+Added compatibility for oxygen OS
 
 ### V 1.1
 
