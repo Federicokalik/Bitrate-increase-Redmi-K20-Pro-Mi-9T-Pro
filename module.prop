@@ -1,6 +1,6 @@
 id=OP3_T_BITRATE_MOD
 name=Bitrate increase for OP3 & OP3t
-version=1.2
-versionCode=102
+version=v1.3
+versionCode=103
 author=Federicokalik
 description=Increase audio bitrate when recording a video up to 320 kbps.
