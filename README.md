@@ -20,6 +20,10 @@ Every Pie-based Rom and yes also OOS
 
 # Changelog
 
+### V 1.3
+
+Bugfix
+
 ### V 1.2
 
 Added compatibility for oxygen OS
