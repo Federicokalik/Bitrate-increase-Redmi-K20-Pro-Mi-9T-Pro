@@ -125,7 +125,7 @@ REPLACE="
 print_modname() {
   ui_print " "
   ui_print "    *******************************************"
-  ui_print "    *      Bitrate increase for OP3 & OP3t    *"
+  ui_print "    * Bitrate increase for Mi9T/Pro & K20/Pro *"
   ui_print "    *******************************************"
   ui_print "    *            by Federicokalik             *"
   ui_print "    *******************************************"
@@ -161,20 +161,20 @@ set_permissions() {
 
 # You can add more functions to assist your custom script code
 
-# this function associates the device model to OP3/3T allowing the installation
+# this function associates the device model to k20/mi 9t/pro allowing the installation
 custom_variables() {
 if [ -f vendor/build.prop ]; then BUILDS="/system/build.prop vendor/build.prop"; else BUILDS="/system/build.prop"; fi
-  OP3=$(grep -E "ro.product.device=oneplus3|ro.product.device=OnePlus3|ro.product.device=OnePlus3T" $BUILDS)
-  OP3OmniRom=$(grep -E "ro.omni.device=oneplus3" $BUILDS)
+  9T=$(grep -E "ro.product.device=davinci" $BUILDS)
+  9Tpro=$(grep -E "ro.product.device=raphael" $BUILDS)
 }
 
-# this function allows installation just on OP3/3T
+# this function allows installation just on k20/mi 9t/pro
 
 device_check() {
-  if [ -n "$OP3" ] || [ -n "$OP3OmniRom" ]; then
+  if [ -n "$9T" ] || [ -n "$9Tpro" ]; then
     break
   else
-    abort "Your device is not a OnePlus 3/3T or you are using a modified build.prop"
+    abort "Your device is not a K20/Pro or a Mi 9T/Pro"
   fi
 }
 
@@ -182,6 +182,6 @@ api_check() {
   if [ "$API" -ge 28 ]; then
     break
   else
-    abort "Your Android version doesn't require this fix"
+    abort "Your Android version doesn't support this mod"
   fi
 }
