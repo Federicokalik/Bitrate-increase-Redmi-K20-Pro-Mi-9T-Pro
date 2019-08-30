@@ -1,6 +1,6 @@
-id=OP3_T_BITRATE_MOD
-name=Bitrate increase for OP3 & OP3T
-version=v1.3
-versionCode=103
+id=Redmi-K20_Pro_Mi_9T_Bitrate_Increase
+name=Bitrate increase for Redmi K20/Pro Mi 9T/Pro
+version=b0.3
+versionCode=003
 author=Federicokalik
 description=Increase audio bitrate when recording a video up to 320 kbps.
