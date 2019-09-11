@@ -1,15 +1,15 @@
 # Xiami Mi 9T/Pro - Redmi K20/Pro Audio Bitrate Increase
 
 # What does this module do?
-This is a simple mod that brings improvements to the microphone of our devices during video recordings with stock camera, increasing the audio bitrate up to 320kb/s.
+This is a simple mod that brings improvements on our devices during video recordings with stock camera, increasing the audio bitrate up to 320kb/s, convert to dual channel & increase the video bitrate up to 60mb/s.
 
 # Why use this module?
 
-Because this mod, more information is brought into the audio, with a consequent increase in quality
+Because with this mod, more information is brought into the audio & video, with a consequent increase in quality.
 
 # What Roms is it compatible with?
 
-Only MIUI 10 (PIE)
+MIUI 10 (PIE & 10) & AOSP PIE BASED ROMS
 
 # Who did this?
 
@@ -17,6 +17,14 @@ Only MIUI 10 (PIE)
 
 # Changelog
 
+### V 0.5
+
+Added dual channel audio recording, 60mb/s video recording & compatibility with MIUI 10 (10) & AOSP
+
 ### V 0.1
 
 Initial release
+
+### Support
+
+[Contact me on Telegram](https://t.me/federicokalik)
