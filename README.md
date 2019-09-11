@@ -1,4 +1,4 @@
-# Xiami Mi 9T/Pro - Redmi K20/Pro Audio Bitrate Increase
+# Xiami Mi 9T/Pro - Redmi K20/Pro Bitrate Increase
 
 # What does this module do?
 This is a simple mod that brings improvements on our devices during video recordings with stock camera, increasing the audio bitrate up to 320kb/s, convert to dual channel & increase the video bitrate up to 60mb/s.
