@@ -179,7 +179,7 @@ device_check() {
 }
 
 api_check() {
-  if [ "$API" -ge 28 ]; then
+  if [ "$API" -ge 29 ]; then
     break
   else
     abort "Your Android version doesn't support this mod"
