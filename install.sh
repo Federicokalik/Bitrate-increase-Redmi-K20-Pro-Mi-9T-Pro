@@ -124,11 +124,11 @@ REPLACE="
 
 print_modname() {
   ui_print " "
-  ui_print "    *******************************************"
-  ui_print "    * Bitrate increase for Mi9T/Pro & K20/Pro *"
-  ui_print "    *******************************************"
-  ui_print "    *            by Federicokalik             *"
-  ui_print "    *******************************************"
+  ui_print "    ********************************************"
+  ui_print "    * Bitrate increase for Mi 9T Pro & K20 Pro *"
+  ui_print "    ********************************************"
+  ui_print "    *            by Federicokalik              *"
+  ui_print "    ********************************************"
   ui_print " "
 }
 
@@ -164,8 +164,7 @@ set_permissions() {
 # this function associates the device model to k20/mi 9t/pro allowing the installation
 custom_variables() {
 if [ -f vendor/build.prop ]; then BUILDS="/system/build.prop vendor/build.prop"; else BUILDS="/system/build.prop"; fi
-  9T=$(grep -E "ro.product.device=davinci" $BUILDS)
-  9Tpro=$(grep -E "ro.product.device=raphael" $BUILDS)
+9Tpro=$(grep -E "ro.product.device=raphael" $BUILDS)
 }
 
 # this function allows installation just on k20/mi 9t/pro
@@ -174,12 +173,12 @@ device_check() {
   if [ -n "$9T" ] || [ -n "$9Tpro" ]; then
     break
   else
-    abort "Your device is not a K20/Pro or a Mi 9T/Pro"
+    abort "Your device is not a K20 Pro or a Mi 9T Pro"
   fi
 }
 
 api_check() {
-  if [ "$API" -ge 29 ]; then
+  if [ "$API" -ge 28 ]; then
     break
   else
     abort "Your Android version doesn't support this mod"
