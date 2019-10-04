@@ -27,4 +27,4 @@ Initial release
 
 ### Support
 
-[Contact me on Telegram](https://t.me/federicokalik)
+[Contact me on Telegram](https://t.me/calicchiadesign)
