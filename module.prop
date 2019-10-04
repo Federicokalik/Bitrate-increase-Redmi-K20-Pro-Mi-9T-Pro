@@ -1,6 +1,6 @@
-id=Redmi-K20_Pro_Mi_9T_Bitrate_Increase
-name=Bitrate increase for Redmi K20/Pro Mi 9T/Pro
-version=b0.3
-versionCode=003
+id=Redmi_K20_Pro_Mi_9T_Bitrate_Increase
+name=Bitrate increase for Redmi K20 Pro & Mi 9T Pro
+version=b0.2
+versionCode=002
 author=Federicokalik
 description=Increase audio bitrate when recording a video up to 320 kbps.
